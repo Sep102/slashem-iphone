@@ -41,7 +41,8 @@ extern int unixmain(int argc, char **argv);
 }
 
 - (void)applicationDidFinishLaunching:(UIApplication *)application {
-	[window addSubview:mainViewController.view];
+    application.statusBarHidden = YES;
+
     [window setRootViewController:mainViewController];
     [window makeKeyAndVisible];
 	

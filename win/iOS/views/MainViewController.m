@@ -87,6 +87,10 @@ enum rotation_lock {
 	instance = self;
 }
 
+- (BOOL)prefersStatusBarHidden {
+    return YES;
+}
+
 - (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)iO {
 	switch (g_rotationLock) {
 		case none:
