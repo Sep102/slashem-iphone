@@ -42,6 +42,7 @@ extern int unixmain(int argc, char **argv);
 
 - (void)applicationDidFinishLaunching:(UIApplication *)application {
 	[window addSubview:mainViewController.view];
+    [window setRootViewController:mainViewController];
     [window makeKeyAndVisible];
 	
 	netHackThread = [[NSThread alloc] initWithTarget:self selector:@selector(netHackMainLoop:) object:nil];
