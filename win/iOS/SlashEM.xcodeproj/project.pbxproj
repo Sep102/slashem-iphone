@@ -1687,6 +1687,11 @@
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0450;
+				TargetAttributes = {
+					1D6058900D05DD3D006BFB54 = {
+						DevelopmentTeam = G3CPKT6MFC;
+					};
+				};
 			};
 			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "SlashEM" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -2139,6 +2144,7 @@
 				GCC_THUMB_SUPPORT = NO;
 				INFOPLIST_FILE = "SlashEM-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sep102.slashem;
 				PRODUCT_NAME = SlashEM;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
@@ -2161,6 +2167,7 @@
 				GCC_THUMB_SUPPORT = NO;
 				INFOPLIST_FILE = "SlashEM-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sep102.slashem;
 				PRODUCT_NAME = SlashEM;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
@@ -2200,6 +2207,7 @@
 				GCC_THUMB_SUPPORT = NO;
 				INFOPLIST_FILE = "SlashEM-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sep102.slashem;
 				PRODUCT_NAME = SlashEM;
 				PROVISIONING_PROFILE = "E119E0C3-BC72-4DC3-B24F-96E0BF383420";
 				"PROVISIONING_PROFILE[sdk=*]" = "E119E0C3-BC72-4DC3-B24F-96E0BF383420";
