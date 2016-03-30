@@ -47,7 +47,9 @@
 
 - (void)resize {
 	CGSize contentSize = self.contentSize;
-	CGRect frame = self.frame;
+    contentSize.height = [self sizeThatFits:CGSizeMake(contentSize.width, self.superview.bounds.size.height/3)].height;
+    [self setContentSize:contentSize];
+    CGRect frame = self.frame;
 	frame.size.height = contentSize.height;
 	if (frame.size.height > self.superview.bounds.size.height/3) {
 		frame.size.height = self.superview.bounds.size.height/3;
